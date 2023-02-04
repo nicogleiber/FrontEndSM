@@ -44,7 +44,6 @@ body {
   scale: 0.5;
   top: 20%;
   right: 3%;
-  position: absolute;
 }
 .gym-data {
   opacity: 100%;
@@ -65,9 +64,15 @@ body {
 
 @media (max-width: 600px) {
   .manager-logo {
-    transition: 0.4s;
-    top: 20%;
-    right: 1%;
     position: absolute;
+    transition: 0.4s;
+    top: 10%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    scale: 1;
+  }
+  .gym-logo {
+    top: 13%;
   }
 }

@@ -1,6 +1,7 @@
 * {
   font-family: "Heebo", sans-serif;
 }
+
 body {
   background-color: #4b400d;
   display: flex;
@@ -9,6 +10,7 @@ body {
   background-size: cover;
   overflow-y: hidden;
 }
+
 .background-index-gym {
   position: absolute;
   top: 0;
@@ -17,6 +19,7 @@ body {
   width: 100%;
   height: auto;
 }
+
 .container {
   position: relative;
   margin-top: 3rem;
@@ -25,6 +28,7 @@ body {
   height: 34rem;
   opacity: 40%;
 }
+
 .container-login {
   box-shadow: 3px 3px 6px #000;
   background-color: #cfaf18;
@@ -38,6 +42,7 @@ body {
   display: block;
   justify-content: center;
 }
+
 .container-login__input {
   position: relative;
   border-radius: 10px 10px 10px 10px;
@@ -50,19 +55,23 @@ body {
   height: 10%;
   font-size: medium;
 }
+
 .container-login__input:hover {
   background-color: #f0f0f0;
   transition: 0.4s;
 }
+
 .container-login__input:focus {
   background-color: #f0f0f0;
 }
+
 .container-login h3 {
   position: relative;
   left: 25%;
   margin-top: 15%;
   margin-bottom: 5%;
 }
+
 .btn-login {
   font-size: medium;
   border-radius: 25px 25px 25px 25px;
@@ -75,6 +84,7 @@ body {
   height: 10%;
   margin-top: 8%;
 }
+
 .btn-login:hover {
   background-color: #362800;
   border: none;
@@ -88,9 +98,11 @@ body {
   margin-left: 18%;
   color: #000;
 }
+
 .container-login a {
   color: #000;
 }
+
 .gym-logo {
   margin-top: 5%;
   display: flex;
@@ -99,6 +111,7 @@ body {
   position: absolute;
   justify-content: center;
 }
+
 .gym-data {
   text-shadow: 3px 3px 3px #000;
   margin-top: 5%;
@@ -112,22 +125,26 @@ body {
   height: 50%;
   right: 10%;
 }
+
 .name-and-classes {
   position: absolute;
   color: #cfaf18;
 }
+
 .name-gym {
   margin-top: 30%;
   margin-top: 0;
   font-size: xx-large;
   letter-spacing: 0.09em;
 }
+
 .name-and-classes p {
   line-height: 100%;
   margin-top: -8%;
   font-size: medium;
   margin-left: 2px;
 }
+
 .week {
   position: absolute;
   width: 100%;
@@ -137,14 +154,17 @@ body {
   grid-template-columns: 57% 43%;
   top: 28%;
 }
+
 .days {
   font-size: larger;
   color: #cfaf18;
 }
+
 .hours {
   font-size: larger;
   color: #cfaf18;
 }
+
 .gym-adress {
   text-shadow: 3px 3px 3px #000;
   display: flex;
@@ -155,18 +175,21 @@ body {
   bottom: 13%;
   font-size: large;
 }
+
 .manager-logo {
   scale: 0.65;
   right: 8%;
   top: 15%;
   position: absolute;
 }
+
 /* --- ACÁ EMPIEZAN LAS MEDIA QUERIES DE 600PX  */
 
 @media (max-width: 600px) {
   * {
     transition: 0.8s;
   }
+
   .manager-logo {
     position: absolute;
     top: 10%;
@@ -175,37 +198,44 @@ body {
     width: 100%;
     scale: 0.5 !important;
   }
+
   .gym-logo {
     top: 13%;
     padding: 10px;
   }
 }
+
 /* --- ACÁ EMPIEZAN LAS MEDIA QUERIES DE 900PX */
 @media (max-width: 900px) {
   * {
     transition: 0.8s;
   }
+
   body {
     overflow-x: hidden;
     overflow-y: scroll;
   }
+
   .background-index-gym {
     position: fixed;
     opacity: 40%;
     width: auto;
     height: 100%;
   }
+
   .container {
     top: auto;
     justify-content: center;
     height: 1200px;
     width: 100%;
   }
+
   .gym-logo {
     top: 3%;
     scale: 0.9;
     transition: 0.4s;
   }
+
   .container-login {
     width: 80%;
     height: auto;
@@ -229,12 +259,14 @@ body {
     top: 20%;
     right: 3%;
   }
+
   .gym-data {
     opacity: 100%;
     top: 139%;
     width: 80%;
     line-height: 205%;
   }
+
   .week {
     top: 23%;
     display: grid;
@@ -242,6 +274,7 @@ body {
     grid-template-columns: 50% 50%;
     text-align: justify;
   }
+
   .gym-adress {
     top: 200%;
   }
